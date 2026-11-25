@@ -1,0 +1,28 @@
+{
+    "name": "paymos/paymenter-gateway",
+    "description": "Paymos payment gateway extension for Paymenter v1 — accept USDT, USDC, USD1, DAI stablecoins and gold-backed XAUT payments with verified webhooks and refunds.",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://paymos.io",
+    "authors": [
+        {
+            "name": "Paymos Labs",
+            "email": "support@paymos.io",
+            "homepage": "https://paymos.io"
+        }
+    ],
+    "support": {
+        "email": "support@paymos.io",
+        "source": "https://github.com/paymos-dev/paymenter-paymos",
+        "issues": "https://github.com/paymos-dev/paymenter-paymos/issues"
+    },
+    "require": {
+        "php": ">=8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Paymenter\\Extensions\\Gateways\\Paymos\\Internal\\": "src/",
+            "Paymenter\\Extensions\\Gateways\\Paymos\\": "."
+        }
+    }
+}
